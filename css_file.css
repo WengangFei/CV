@@ -1,0 +1,52 @@
+*{
+    box-sizing:border-box;
+
+}
+
+#my_profile{
+    border-radius: 50%;
+    height:30vh;
+    width:30vh;
+}
+ul.hubbies{
+    list-style-type: custom-ordered;
+}
+
+/* style type for unordered list */
+/* @counter-style custom-unordered {
+    system: cyclic;
+    symbols:  '❓' '✌️' '❤️' ;
+    suffix: ' ';
+} */
+
+/* style type for ordered list */
+@counter-style custom-ordered {
+system: fixed;
+symbols: '🏂' '🎼' '🎾' '🚶‍♂️' '🎥';
+suffix: '  ';
+}
+
+.table1{
+    border: none;
+}
+
+
+.table2 {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse; 
+}
+
+.table2 tr td{
+    text-align: center;
+    border: 1px solid black;
+}
+.table2 th{
+    text-align: center;
+    border: 1px solid black;
+}
+
+tfoot{
+    background-color: yellowgreen;
+}
+
