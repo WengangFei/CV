@@ -219,7 +219,7 @@ hr {
       visibility: hidden; }
       .second_part_title_slogan_add {
         color: #0a8c7a;
-        font-size: 3vh;
+        font-size: 5vh;
         font-family: title;
         margin-right: 2rem; }
   .second_part_img {
@@ -301,10 +301,10 @@ hr {
 
 .foot {
   height: 8vh;
-  color:rgb(7, 102, 91);
-  padding: 1rem;
   background-color: #17bbb0;
-  text-align: center; }
+  text-align: center;
+  color: #07665b;
+  padding: 1rem; }
 
 @keyframes move {
   /* from{transform: translateX(0vw)}
