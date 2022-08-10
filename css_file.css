@@ -300,9 +300,10 @@ hr {
 
 .foot {
   height: 8vh;
+  color:rgb(7, 102, 91);
+  padding: 1rem;
   background-color: #17bbb0;
-  text-align: center;
-  margin: auto; }
+  text-align: center; }
 
 @keyframes move {
   /* from{transform: translateX(0vw)}
