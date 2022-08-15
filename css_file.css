@@ -215,6 +215,7 @@ hr {
     top: 25rem;
     left: 25rem; }
     .second_part_title_slogan {
+      font-size: 1.5rem;
       line-height: 3rem;
       visibility: hidden; }
       .second_part_title_slogan_add {
