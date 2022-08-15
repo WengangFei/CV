@@ -212,15 +212,15 @@ hr {
     font-size: 3rem;
     clear: left;
     position: absolute;
-    top: 27rem;
+    top: 25rem;
     left: 25rem; }
     .second_part_title_slogan {
-      font-size: 3rem;
       line-height: 3rem;
-      visibility: hidden; }
+      visibility: hidden;
+      font-size: 3rem; }
       .second_part_title_slogan_add {
         color: #0a8c7a;
-        font-size: 1vh;
+        font-size: 3vh;
         font-family: title;
         margin-right: 2rem; }
   .second_part_img {
@@ -256,6 +256,9 @@ hr {
   height: 50rem;
   perspective: 150rem;
   -moz-perspective: 150rem; }
+  .third_part img {
+    height: 50%;
+    width: 50%; }
   .third_part_pannel {
     position: relative;
     cursor: pointer;
@@ -277,6 +280,8 @@ hr {
       backface-visibility: hidden;
       box-shadow: 0px 10px 5px #88dce4;
       background: linear-gradient(to bottom right, #3bdcd4, #d1e1e1); }
+      .third_part_pannel_front_title {
+        font-size: 5rem; }
     .third_part_pannel_back {
       padding: 1rem;
       text-align: left;
