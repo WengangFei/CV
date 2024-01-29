@@ -107,7 +107,11 @@ hr {
   animation-duration: 40s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
-  top: 16vh;
+  top: 22vh;
+  font-family: title;
+  font-size: xx-large;
+  color:#bf00ff;
+  font-weight:bold;
   /* animation-delay: 5s; */ }
 
 .cloud_top {
