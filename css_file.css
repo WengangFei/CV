@@ -42,6 +42,16 @@ body {
   height: auto;
   display: flex; }
 
+#online_shopping {
+  height:300px;
+  width:400px;
+}
+
+#smile_face {
+  height:35px;
+  width:35px;
+}
+
 #myname {
   flex: 5;
   /* background-color: blue; */
@@ -107,7 +117,9 @@ hr {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   /* animation-delay: .5s; */
-  right: 35vw; }
+  right: 35vw;
+
+}
 
 #menu {
   flex: 2;
@@ -200,24 +212,23 @@ hr {
     opacity: 0.2; }
   .second_part_description {
     color: #0a8c7a;
-    font-size: 5vh;
+    font-size: 4vh;
     font-family: title;
-    margin: 5rem;
+    margin-left: 2rem;
     font-weight: bold;
     float: left;
     width: 60rem; }
   .second_part_title {
     font-family: mission;
-    color: #0a8c7a;
-    font-size: 3rem;
+    color: #a420c8;
     clear: left;
     position: absolute;
-    top: 33rem;
-    left: 25rem; }
+    top: 10rem;
+    left: 20rem; }
     .second_part_title_slogan {
       line-height: 3rem;
       visibility: hidden;
-      font-size: 3rem; }
+      font-size: 2rem; }
       .second_part_title_slogan_add {
         color: #0a8c7a;
         font-size: 3vh;
